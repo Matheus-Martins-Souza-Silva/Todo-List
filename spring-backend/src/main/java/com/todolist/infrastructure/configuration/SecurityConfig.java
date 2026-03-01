@@ -16,6 +16,8 @@ public class SecurityConfig {
                 .anyRequest().permitAll()
             );
 
+        //Allowing all kind of requests without authorization, change it if you wanna do any kind of authorization system.
+
         return http.build();
     }
 }
