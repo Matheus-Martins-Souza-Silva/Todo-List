@@ -22,7 +22,6 @@ public class Todo {
         Assert.notNull(id, "ID must be not null!");
         Assert.notNull(title, "Title must be not null!");
         Assert.notNull(status, "Status must be not null!");
-        //this.id = new TodoID();
         this.id = id;
         this.title = title;
         this.status = status;
