@@ -1,17 +1,44 @@
-# To-Do List
+# 📝 Todo List 
 
-Projeto full-stack: front-end em React e back-end (a ser implementado por você).
+Aplicação de **Lista de Tarefas (Todo List)** desenvolvida com foco em boas práticas de arquitetura, separação de responsabilidades e organização de código no Back-End.
 
-## Estrutura
+## 🚀 Tecnologias Utilizadas
 
-- **react-frontend/** – aplicação React + Vite + Tailwind (to-do list)
+### 🔹 Back-End
+- Java 21+
+- Spring Boot
+- Spring Data MongoDB
+- Arquitetura Hexagonal (Ports & Adapters)
+- Domain-Driven Design (DDD)
+- Maven
 
-## Rodar o front-end
+### 🔹 Banco de Dados
+- MongoDB (Atlas ou local)
 
-```bash
-cd react-frontend
-npm install
-npm run dev
-```
+### 🔹 Front-End
+- React
+- TypeScript
+- Vite
+- TailwindCSS
 
-Abre em [http://localhost:3000](http://localhost:3000). Consulte `react-frontend/README.md` para mais detalhes.
+---
+
+## 🏗️ Arquitetura do Projeto
+
+O Back-End foi estruturado utilizando **Arquitetura Hexagonal + DDD**, garantindo:
+
+- Separação clara entre domínio e infraestrutura
+- Baixo acoplamento
+- Alta coesão
+- Independência de frameworks
+
+---
+
+## 📦 Funcionalidades
+
+- ✅ Criar tarefa
+- 📋 Listar tarefas
+- 🔄 Atualizar status
+- ❌ Deletar tarefa
+
+---
