@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: todolist-backend
+  config:
+    import: optional:file:.env[.properties]
+  mongodb:
+    uri: ${DATABASE_URI}
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
