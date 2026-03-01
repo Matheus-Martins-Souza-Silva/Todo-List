@@ -15,8 +15,6 @@ public class GetTodoCase {
         this.repository = repository;
     }
 
-    // ARRUMAR O FRONT-END
-
     public List<GetTodoResponse> getList() {
         return repository.findAll().stream().map( todo -> new GetTodoResponse(
             todo.getId().id().toString(),
